@@ -1,0 +1,78 @@
+//公共scss
+* {
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+#app{
+    height:100%;
+}
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: "Helvetica Neue", "Microsoft Yahei",Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
+}
+
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea { -webkit-appearance: none;}
+a,a:active,a:link,a:hover{
+    color:#409EFF;
+}
+
+.el-menu-item-group__title{
+    padding:0;
+}
+.el-submenu .el-menu-item{
+    min-width: 199px;
+}
+.form-box{
+    padding:40px 20px 20px 0;
+    width:600px;
+}
+.el-upload {
+    margin:20px 0 0;
+}
+.form-btn{
+    margin-top: 20px;
+}
+.el-pagination{
+    float: right;
+    margin-top:10px;
+    padding-right:10px;
+  }
+  .detail-concent{
+      margin-top: 40px;
+      position: relative;
+      p{
+          margin-bottom: 20px;
+          width:400px;
+          span{
+              display: inline-block;
+          }
+          span:first-of-type{
+              width:150px;
+              font-weight: bold;
+          }
+      }
+  }
+
+  .upload-group{
+      .el-form-item__content{
+          div{
+              margin:0;
+          }
+      }
+  }
