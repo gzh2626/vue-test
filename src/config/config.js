@@ -1,4 +1,4 @@
-let baseUrl = 'https://www.lidongshuai.top/edu';
+let baseUrl = 'https://';
 
 export default{
     baseUrl
